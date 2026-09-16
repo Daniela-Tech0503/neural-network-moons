@@ -1,5 +1,5 @@
 from tensorflow.keras import Sequential, layers, Model
-from .contratos import ConfiguracaoExperiencia
+from contratos import ConfiguracaoExperiencia
 
 
 def criar_modelo(config: ConfiguracaoExperiencia, numero_features: int) -> Model:

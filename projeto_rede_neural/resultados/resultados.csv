@@ -1,0 +1,3 @@
+experiencia,dataset,camadas_ocultas,neuronios_por_camada,ativacao,parametros,accuracy_teste,loss_teste
+E01,make_moons,2,8,tanh,105,0.984000,0.085294
+E05,make_circles,2,8,tanh,105,0.624000,0.666778
