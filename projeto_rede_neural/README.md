@@ -17,9 +17,9 @@ relação à baseline E01, com tudo o resto fixo: 500 amostras, noise 0.15, seed
 | E04 | make_moons | 2 | 8 | relu | Função de ativação |
 | E05 | make_circles | 2 | 8 | tanh | Base de dados |
 
-Estado atual: E01 e E05 implementadas (PR #1 + correções). E02, E03 e E04 entram
-nos próximos PRs (Luciana e Pedro). As fronteiras de decisão e as curvas de loss
-(`visualizacao.py`) são entregues pelo Pedro (NNPROJ-6).
+Estado atual: Todas as experiências (E01 a E05), módulo de visualização
+(`visualizacao.py`), fronteiras de decisão, curvas de loss e o Relatório Final em
+PDF (`relatorio/relatorio_final.pdf`) estão 100% implementados e consolidados.
 
 ## Versão de Python
 
@@ -44,22 +44,35 @@ python -m pip install -r projeto_rede_neural\requirements.txt
 
 ## Como executar
 
+Execução completa de todas as 5 experiências (gera o CSV e os 3 gráficos):
+
 ```powershell
 cd projeto_rede_neural
 python executar_experiencias.py
 ```
 
-Testes mínimos:
+Testes mínimos de validação:
 
 ```powershell
 cd projeto_rede_neural
 python test_fundacao.py
 ```
 
-## Onde ficam os resultados
+Gerar / regenerar o Relatório Final em PDF:
 
-- CSV: `projeto_rede_neural/resultados/resultados.csv` (uma linha por experiência,
-  cabeçalho: `experiencia,dataset,camadas_ocultas,neuronios_por_camada,ativacao,parametros,accuracy_teste,loss_teste`).
+```powershell
+cd projeto_rede_neural\relatorio
+python gerar_relatorio_final.py
+```
+
+## Ficheiros gerados
+
+- CSV: `projeto_rede_neural/resultados/resultados.csv` (5 linhas, E01 a E05).
+- Figuras:
+  - `projeto_rede_neural/figuras/E01_fronteira_make_moons.png`
+  - `projeto_rede_neural/figuras/E05_fronteira_make_circles.png`
+  - `projeto_rede_neural/figuras/E01_E04_curvas_loss.png`
+- Relatório: `projeto_rede_neural/relatorio/relatorio_final.pdf` (13 secções completas).
 
 ## Responsáveis
 
