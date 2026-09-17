@@ -294,9 +294,6 @@ def gerar_relatorio():
     ]))
     story.append(t_contrib)
 
-    story.append(Spacer(1, 10))
-    p("<b>Aprovação Final da Revisora:</b> Relatório conferido e aprovado formalmente em 17/09/2026. Todos os valores correspondem aos ficheiros de dados e o código é 100% auditável e reprodutível.", "note")
-
     doc = SimpleDocTemplate(
         str(OUTPUT),
         pagesize=A4,
