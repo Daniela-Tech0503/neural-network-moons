@@ -113,7 +113,7 @@ def gerar_relatorio():
 
     p("RELATÓRIO FINAL DE EXPERIÊNCIAS — REDES NEURAIS", "title")
     p("Neural Network Moon Project &#8226; Task NNPROJ-12 &#8226; Data: 17/09/2026<br/>"
-      "Autor: Pedro Rodrigues &#8226; Colaboradores: Helton Soares, Luciana Almeida &#8226; Revisão: Daniela Amaro", "subtitle")
+      "Colaboradores: Daniela Amaro, Helton Soares, Luciana Almeida, Pedro Rodrigues", "subtitle")
 
     # 1. Objetivo do projeto
     h("1. Objetivo do Projeto")
@@ -305,7 +305,7 @@ def gerar_relatorio():
         topMargin=1.5 * cm,
         bottomMargin=1.5 * cm,
         title="Relatório Final - Neural Network Moon Project",
-        author="Pedro Rodrigues",
+        author="Daniela Amaro, Helton Soares, Luciana Almeida, Pedro Rodrigues",
     )
     doc.build(story)
     print(f"Relatório Final gerado com sucesso em: {OUTPUT}")
