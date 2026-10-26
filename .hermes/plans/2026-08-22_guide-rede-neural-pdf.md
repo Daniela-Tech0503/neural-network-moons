@@ -30,4 +30,4 @@ Criar um PDF em português, acessível a uma aluna iniciante, contendo:
 - renderizar páginas para PNG e inspecionar visualmente uma amostra.
 
 ## Observação pedagógica
-Os códigos de solução são modelos possíveis para estudo. O grupo deve compreendê-los, adaptá-los e justificar as decisões no trabalho, em vez de os copiar sem análise.
+Os códigos de solução são modelos possíveis para estudo. O grupo deve compreendê-los, adaptá-los e justificar as decisões no trabalho, em vez de os copiar sem análise. 
